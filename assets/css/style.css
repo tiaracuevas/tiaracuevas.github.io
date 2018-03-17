@@ -1,0 +1,224 @@
+/* Style for all pages */
+
+html {
+    background: lightgrey;
+    background-size: cover;
+   
+}
+
+body{
+    width: 960px;
+    background-color: #ffffff;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #dddddd;
+    margin: auto;
+}
+
+
+.fixedheader {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 960px;
+    page-break-after: always;
+    
+}
+
+.myname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffff;
+    background-color: #4aaaa5;
+    width: 30%;
+    font-size: 40px;
+    padding: 15px;
+    text-align: center;
+    float: left;
+}
+
+.links {
+    float: left;
+    width: 200px;
+    padding: 30px;
+    padding-left: 300px;
+}
+.links a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 40px;
+    text-align: left
+}
+
+/* START code for contact page! */
+
+.contact {
+    width: 960px;
+    padding: 20px;
+    padding-top: 30px;
+    border: #666666;
+    margin: 50px;
+    text-align: left;
+    
+
+    /*come back to add border*/
+
+}
+
+#name, #email, #message {
+    width: 800px;
+    margin-bottom: 20px;
+    
+}
+
+/*add code for submit button*/
+
+/* END code for contact page! */
+
+
+/* START code for portfolio page */
+
+.maincontent {
+    width: 960px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+
+    padding: 20px;
+    padding-top: 30px;
+
+    border-bottom: 10px;
+    border-style:solid;
+    border-color: #4aaaa5;
+   
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    width: 40%;
+}
+.centered1 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 69%;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 40%;
+    
+}
+
+.centered2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 69%;
+    padding: 15px;
+}
+
+.container3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 40%;
+    
+}
+
+.centered3 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 69%;
+    padding: 15px;
+}
+
+.container4 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 40%;
+    
+}
+
+.centered4 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 69%;
+    padding: 15px;
+}
+
+.container5 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 40%;
+    
+}
+
+.centered5 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    width: 69%;
+    padding: 15px;
+}
+
+/* END code for portfolio page */
+
+/* START code for INDEX page */
+
+.aboutme {
+    float: left;
+    width: 960px;
+    padding-bottom: 15px;
+    border-bottom: 10px;
+    border-style:solid;
+    border-color: #4aaaa5;
+}
+
+#profilepic{
+    float: left;
+    margin: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+
+
+/* START code for footer */
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    border-top: #4aaaa5;
+    padding-top: 20px;
+    text-align: center;
+    clear: both;
+    width: 100%;
+}
