@@ -1,10 +1,11 @@
 /* Style for all pages */
 
 html {
-    background: lightgrey;
+    background: lightcoral;
     background-size: cover;
    
 }
+
 
 body{
     width: 960px;
@@ -15,52 +16,55 @@ body{
     margin: auto;
 }
 
+/* NAVBAR */
 
-.fixedheader {
-    background-color: #ffffff;
-    border-color: #cccccc;
-    width: 960px;
-    page-break-after: always;
+.navbar-header {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
     
 }
 
-.myname {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ffff;
-    background-color: #4aaaa5;
-    width: 30%;
-    font-size: 40px;
-    padding: 15px;
-    text-align: center;
-    float: left;
-}
-
-.links {
-    float: left;
-    width: 200px;
-    padding: 30px;
-    padding-left: 300px;
-}
-.links a {
+.active a {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    
 }
 
-#h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/*about me section*/
+
+.page-header {
     color: #4aaaa5;
-    font-size: 40px;
-    text-align: left
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
+
+#container {
+    width: 960px;
+    background-color: #ffffff;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #dddddd; 
+
+}
+
+.text {
+    padding: 20px;
+    padding-top: 0px;
+}
 /* START code for contact page! */
 
 .contact {
-    width: 960px;
+    width: auto;
     padding: 20px;
     padding-top: 30px;
     border: #666666;
-    margin: 50px;
+    margin: 0px;
     text-align: left;
     
 
@@ -82,15 +86,16 @@ body{
 /* START code for portfolio page */
 
 .maincontent {
-    width: 960px;
+    width: auto;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
 
     padding: 20px;
     padding-top: 30px;
+    padding-bottom: 50px;
 
-    border-bottom: 10px;
+    border-bottom: 20px;
     border-style:solid;
     border-color: #4aaaa5;
    
@@ -189,12 +194,10 @@ body{
 /* START code for INDEX page */
 
 .aboutme {
-    float: left;
     width: 960px;
-    padding-bottom: 15px;
-    border-bottom: 10px;
-    border-style:solid;
-    border-color: #4aaaa5;
+    padding: 15px;
+    background-color: #ffffff;
+
 }
 
 #profilepic{
@@ -213,12 +216,18 @@ p {
 
 /* START code for footer */
 
-footer {
+.panel-footer {
     background-color: #666666;
     color: #ffffff;
+    font: x-small;
     border-top: #4aaaa5;
+    border: 10px;
     padding-top: 20px;
     text-align: center;
     clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
 }
+
